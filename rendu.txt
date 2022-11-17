@@ -18,3 +18,153 @@ module.exports = {
 
 ex01 ----------
 
+function add(a,b){
+return (a + b);
+}
+
+// Ne touchez pas les lignes en dessous.
+module.exports = {
+  add
+}
+
+---------
+
+ex02 ---------
+
+function multiply (a, b) {
+ return (a * b);
+}
+
+// Ne touchez pas les lignes en dessous.
+module.exports = {
+  multiply
+}
+
+-------
+
+ex03
+
+unction divide (a, b){
+  if (b == 0){
+    return ("Forbidden")
+  }
+  else{
+return (a / b);
+  }
+}
+// Ne touchez pas les lignes en dessous.
+module.exports = {
+  divide
+}
+
+------
+
+ex04
+
+function modulo (a, b){
+return (a % b)
+  }
+
+// Ne touchez pas les lignes en dessous.
+module.exports = {
+  modulo
+}
+
+-------
+
+ex05
+
+let i = 0;
+while (i<=9) {
+i = i + 1
+console.log (i)
+}
+
+-------
+
+ex06
+
+let i = 0
+while (i<=98) {
+  i = i + 2
+  console.log (i)
+}
+
+
+--------
+
+ex07
+
+console.log (Hello user!)
+const userName = prompt("What is your name !")
+console.log("Have a nice day" + userName + " !")
+
+-------
+
+ex08
+
+console.log ('welcome to my secret Diary !')
+const userName = prompt('What is your name ?'); 
+if (userName == 'David') {
+  console.log ('I really wanna stay at your house, and i hope this works out...')
+} else {
+  console.log ('Get Away !')
+}
+
+--------
+
+ex09
+
+console.log ('welcome to my secret Diary !')
+const userName = prompt('What is your name ?'); 
+if (userName == 'David') {
+  console.log ('I really wanna stay at your house, and i hope this works out...')
+} else {
+  console.log ('Get Away !')
+}
+
+--------
+
+ex10
+
+function cyberNumber(a){
+//const a = prompt("choisir un nombre")
+if (a % 3 == 0 && a % 5 == 0  ) {
+  console.log("CyberPunk2077");
+  return "CyberPunk2077";
+}  if ( a % 3 == 0){
+  console.log("Cyber")
+  return "Cyber"
+} if (a % 5 == 0 ){
+  console.log("Punk");
+  return "Punk";
+}  else {
+console.log("pas mutliple de 3 et 5")
+}
+
+}
+
+
+module.exports = {
+  cyberNumber
+}
+
+---------
+
+ex11
+
+function bissextile (year){
+ // const year = prompt("choisir une année")
+  if(year%4==0 && year%100!=0 || year%400==0) {
+    console.log("0");
+    return 0
+  } else {
+    console.log("1");
+    return 1
+  }
+}
+
+module.exports = {
+  bissextile
+}
+
