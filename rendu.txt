@@ -44,7 +44,7 @@ module.exports = {
 
 ex03
 
-unction divide (a, b){
+function divide (a, b){
   if (b == 0){
     return ("Forbidden")
   }
